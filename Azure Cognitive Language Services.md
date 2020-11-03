@@ -19,8 +19,8 @@ Usługa składa się z interfejsów API za pośrednictwem wywołań REST, zestaw
 W celu skorzystania z usługi, należy utworzyć odpowiednie zasoby i wygenerować klucz. Usługę można uruchomić za pomocą API, umieszczająć w headerze  Ocp-Apim-Subscription-Key z wygenerowanym kluczem.
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard
-a) Free – pozwala wykonać maksymalnie 5000 zapytań w miesiącu
-b) Standard – cennik jest rozbity na:
+##### Free – pozwala wykonać maksymalnie 5000 zapytań w miesiącu
+##### Standard – cennik jest rozbity na:
 * Od 0 do 1 mln transakcji - €0,844 za 1 000 transakcji
 * Od 1 mln do 5 mln transakcji - €0,633 za 1 000 transakcji
 * Od 5 mln do 10 mln transakcji - €0,506 za 1 000 transakcji
