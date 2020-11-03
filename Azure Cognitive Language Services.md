@@ -3,9 +3,11 @@
 
 # Azure Cognitive Language Services
 
-### Azure Content Moderator
+## Azure Content Moderator
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
+Usługa Content Moderator potrafi wykrywać obraźliwe słowa i nieporządane obrazy za pomocą uczenia maszynowym. Usługa może wykrywać wulgaryzmy w ponad 100 językach. Usługa jest w stanie skanować obrazy (minimalnie 128 pikseli, maksymalny rozmiar: 4 MB) w celu wyszukania zawartości erotycznej i przeznaczonej dla osób dorosłych.
+
 ##### 1.2. Opis serwisu
 
 ### 2. Use Cases
@@ -15,6 +17,14 @@
 ### 3. How to
 ##### 3.1. Użycie serwisu
 ##### 3.2. Opłaty
+Możemy wyróżnić 2 modele: free oraz standard
+Free – pozwala wykonać maksymalnie 5000 zapytań w miesiącu
+Standard – cennik jest rozbity na:
+* Od 0 do 1 mln transakcji - €0,844 za 1 000 transakcji
+* Od 1 mln do 5 mln transakcji - €0,633 za 1 000 transakcji
+* Od 5 mln do 10 mln transakcji - €0,506 za 1 000 transakcji
+* Ponad 10 mln transakcji - €0,338 za 1 000 transakcji
+
 
 # Language Understanding Intelligent Service (LUIS)
 
@@ -49,7 +59,7 @@ Standard – maksymalnie 50 zapytań na sekundę:
 *	Rządanie tekstowe - $1.50 za 1000 zapytań
 *	Rządanie wymawiane - $5.50 za 1000 zapytań
 
-## Text Analytics API
+# Text Analytics API
 
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
