@@ -48,3 +48,22 @@ Standard – maksymalnie 50 zapytań na sekundę:
 o	Rządanie tekstowe - $1.50 za 1000 zapytań
 o	Rządanie wymawiane  - $5.50 za 1000 zapytań
 
+## Text Analytics API
+
+### 1. Intro
+##### 1.1. Wstępne przedstawienie serwisu
+Text Analytics to usługa, która ma za zadanie analizować i zrozumieć tekst. Usługa ta udostępnia szczegółowe informacje o tonacji oraz kluczowych frazach w postaci tekstu bez struktury
+##### 1.2. Opis serwisu
+Text Analytics potrafi wykrywać język tekstu, słowa kluczowe, czy też przeanalizować tonację oraz wyszukać opinię. Serwis zwraca ocenę opinii od 0 do 1 dla. Im wartość opinii jest wyższa tym tekst jest bardziej pozytywny pozytywnym. 
+
+### 2. Use Cases
+Sklep internetowy z recenzjami klientów. Analizę tekstu można użyć do wyszukiwania negatywnych recenzji.
+Określenie nastrojów uczniów po napisaniu matury z matematyki na podstawie komentarzy na forach. 
+
+##### 2.1. Wstępne przedstawienie serwisu
+##### 2.2. Opis serwisu
+
+### 3. How to
+##### 3.1. Użycie serwisu
+##### 3.2. Opłaty
+
