@@ -32,9 +32,10 @@ Rozpoznawanie jednostek nazwanych  - wyodrębnia z frazy jednostki np., nazwy mi
 
 ### 2. Use Cases
 Usługa może być wykorzystywana np. w aplikacjach jako media społecznościowe, aplikacje komputerowe z obsługą mowy np.
-Bot w na stronie restauracji, który odpowiada na podstawowe pytania 
-Bot do rezerwacji biletów w kina, na podstawie wypowiedzi użytkownika, bot potrafi zrozumieć, na jaki film, kiedy i w jakim mieście użytkownik chce obejrzeć film
-Bot który na podstawie kluczowych słów potrafi postawić diagnozę medyczną 
+
+* Bot w na stronie restauracji, który odpowiada na podstawowe pytania 
+* Bot do rezerwacji biletów w kina, na podstawie wypowiedzi użytkownika, bot potrafi zrozumieć, na jaki film, kiedy i w jakim mieście użytkownik chce obejrzeć film
+* Bot który na podstawie kluczowych słów potrafi postawić diagnozę medyczną 
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
@@ -57,16 +58,15 @@ Text Analytics to usługa, która ma za zadanie analizować i zrozumieć tekst. 
 Text Analytics potrafi wykrywać język tekstu, słowa kluczowe, czy też przeanalizować tonację oraz wyszukać opinię. Serwis zwraca ocenę opinii od 0 do 1 dla. Im wartość opinii jest wyższa tym tekst jest bardziej pozytywny pozytywnym. 
 
 ### 2. Use Cases
-Sklep internetowy z recenzjami klientów. Analizę tekstu można użyć do wyszukiwania negatywnych recenzji.
-Określenie nastrojów uczniów po napisaniu matury z matematyki na podstawie komentarzy na forach. 
+
+* Sklep internetowy z recenzjami klientów. Analizę tekstu można użyć do wyszukiwania negatywnych recenzji.
+* Określenie nastrojów uczniów po napisaniu matury z matematyki na podstawie komentarzy na forach. 
 
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
-W celu skorzystania z usługi, należy utworzyć zasób Text Analytics i  uzyskać dostęp do klucza dostępowego, aby uwierzytelnić żądania.
-Sformułuj żądanie zawierające dane jako nieprzetworzony tekst bez struktury, w formacie JSON.
-Wyślij żądanie do punktu końcowego ustanowionego podczas rejestracji, dołączając żądany zasób: tonacji Analysis, wyodrębnianie kluczowych fraz, wykrywanie języka lub rozpoznawanie jednostek nazwanych.
-Prześlij odpowiedź strumieniowo lub przechowaj ją lokalnie. W zależności od żądania wyniki są oceną tonacji, kolekcją wyodrębnionych kluczowych fraz lub kodem języka.
+W celu skorzystania z usługi, należy utworzyć zasób Text Analytics i uzyskać dostęp do klucza dostępowego, aby uwierzytelnić żądania. Żądania powinny być w formacie JSON.
+Następnie należy wysłać żadanie z tekstem do analizy do punktu końcowegom, który został ustalony podczas rejestracji. 
 
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard
