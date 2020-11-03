@@ -16,7 +16,7 @@ Usługa składa się z interfejsów API za pośrednictwem wywołań REST, zestaw
 ### 3. How to
 ##### 3.1. Użycie serwisu
 
-W celu skorzystania z usługi, należy utworzyć odpowiednie zasoby i wygenerować klucz. Możemy skorzystać z API, gdzie jako odpowiedż otrzymujemy nieodpowiednie słowa. Usługę możemy uruchomić zadanie za pomocą konsoli API umieszczająć w headerze  Ocp-Apim-Subscription-Key z wygenerowanym kluczem.
+W celu skorzystania z usługi, należy utworzyć odpowiednie zasoby i wygenerować klucz. Usługę można uruchomić za pomocą API, umieszczająć w headerze  Ocp-Apim-Subscription-Key z wygenerowanym kluczem.
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard
 Free – pozwala wykonać maksymalnie 5000 zapytań w miesiącu
