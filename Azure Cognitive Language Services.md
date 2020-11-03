@@ -37,8 +37,8 @@ Language Understanding (LUIS) jego celem jest zrozumienie intencji użytkownika.
 
 Usługa Luis przyjmuje tekst jako wejście i przewiduje jego główny cel oraz analizuje wypowiedzi.
 Serwis wykorzystuje 2 kluczowe zadania w celu zrozumienia języka naturalnego:<br/>
-Klasyfikacja zamiaru – pozwala na przypisanie zdaniu wejściowemu wypowiedzi w celu określenia ogólnego znaczenia <br/>
-Rozpoznawanie jednostek nazwanych  - wyodrębnia z frazy jednostki np., nazwy miast czy daty
+* Klasyfikacja zamiaru – pozwala na przypisanie zdaniu wejściowemu wypowiedzi w celu określenia ogólnego znaczenia <br/>
+* Rozpoznawanie jednostek nazwanych  - wyodrębnia z frazy jednostki np., nazwy miast czy daty
 
 
 ### 2. Use Cases
