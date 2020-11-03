@@ -8,8 +8,9 @@ Usługa Content Moderator potrafi wykrywać obraźliwe słowa i nieporządane ob
 ##### 1.2. Opis serwisu
 Usługa składa się z interfejsów API za pośrednictwem wywołań REST, zestawu .NET SDK oraz narzędzi do przeglądu.
 ### 2. Use Cases
-##### 2.1. Wstępne przedstawienie serwisu
-##### 2.2. Opis serwisu
+* Moderowanie opinii na stronie wynajmu pokoju w ośrodku turystycznym
+* Wychwytywanie wulgaryzmów na forum
+* Cenzurowanie nieodpowiednich zdjęć na stronie
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
