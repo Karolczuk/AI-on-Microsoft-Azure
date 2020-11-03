@@ -6,7 +6,8 @@
 Usługa Content Moderator potrafi wykrywać obraźliwe słowa i nieporządane obrazy za pomocą uczenia maszynowym. Usługa może wykrywać wulgaryzmy w ponad 100 językach. Usługa jest w stanie skanować obrazy (minimalnie 128 pikseli, maksymalny rozmiar: 4 MB) w celu wyszukania zawartości erotycznej i przeznaczonej dla osób dorosłych.
 
 ##### 1.2. Opis serwisu
-Usługa składa się z interfejsów API za pośrednictwem wywołań REST, zestawu .NET SDK oraz narzędzi do przeglądu.
+Usługa składa się z interfejsów API za pośrednictwem wywołań REST, zestawu .NET SDK oraz narzędzi do przeglądu. Azure Content Moderator pomaga znaleźć nieodpowienie słowa czy obrazy. Usługa wysyła zapytanie do API, jako odpowiedż otrzymujemy nieodpowiednie słowa.
+
 ### 2. Use Cases
 * Moderowanie opinii na stronie wynajmu pokoju w ośrodku turystycznym
 * Wychwytywanie wulgaryzmów na forum
