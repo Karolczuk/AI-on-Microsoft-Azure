@@ -43,10 +43,10 @@ W celu skorzystania z usługi, należy utworzyć zasób LUIS w Azure Portal. Apl
 
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard
-Free – pozwala wykonać maksymalnie 5 zapytań 
+Free – pozwala wykonać maksymalnie 5 zapytań ba sekundę
 Standard – maksymalnie 50 zapytań na sekundę:
-o	Rządanie tekstowe - $1.50 za 1000 zapytań
-o	Rządanie wymawiane  - $5.50 za 1000 zapytań
+*	Rządanie tekstowe - $1.50 za 1000 zapytań
+*	Rządanie wymawiane - $5.50 za 1000 zapytań
 
 ## Text Analytics API
 
@@ -60,10 +60,20 @@ Text Analytics potrafi wykrywać język tekstu, słowa kluczowe, czy też przean
 Sklep internetowy z recenzjami klientów. Analizę tekstu można użyć do wyszukiwania negatywnych recenzji.
 Określenie nastrojów uczniów po napisaniu matury z matematyki na podstawie komentarzy na forach. 
 
-##### 2.1. Wstępne przedstawienie serwisu
-##### 2.2. Opis serwisu
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
+W celu skorzystania z usługi, należy utworzyć zasób Text Analytics i  uzyskać dostęp do klucza dostępowego, aby uwierzytelnić żądania.
+Sformułuj żądanie zawierające dane jako nieprzetworzony tekst bez struktury, w formacie JSON.
+Wyślij żądanie do punktu końcowego ustanowionego podczas rejestracji, dołączając żądany zasób: tonacji Analysis, wyodrębnianie kluczowych fraz, wykrywanie języka lub rozpoznawanie jednostek nazwanych.
+Prześlij odpowiedź strumieniowo lub przechowaj ją lokalnie. W zależności od żądania wyniki są oceną tonacji, kolekcją wyodrębnionych kluczowych fraz lub kodem języka.
+
 ##### 3.2. Opłaty
+Możemy wyróżnić 2 modele: free oraz standard
+Free – pozwala wykonać maksymalnie 5000 zapytań w miesiącu
+Standard – cennik jest rozbity na:
+* 0–500 000 rekordów tekstu — €1,687 za 1 000 rekordów tekstu
+* 0,5M–2,5M rekordów tekstu — €0,844 za 1 000 rekordów tekstu
+* 2,5M–10,0M rekordów tekstu — €0,422 za 1 000 rekordów tekstu
+* 10M+ rekordów tekstu — €0,211 za 1 000 rekordów tekstu
 
