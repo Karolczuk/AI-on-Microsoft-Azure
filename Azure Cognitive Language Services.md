@@ -20,7 +20,7 @@ W celu skorzystania z usługi, należy utworzyć odpowiednie zasoby i wygenerowa
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard <br/>
 Free – pozwala wykonać maksymalnie 5000 zapytań w miesiącu <br/>
-Standard – cennik jest rozbity na:
+Standard – cennik jest rozbity na:<br/>
 * Od 0 do 1 mln transakcji - €0,844 za 1 000 transakcji
 * Od 1 mln do 5 mln transakcji - €0,633 za 1 000 transakcji
 * Od 5 mln do 10 mln transakcji - €0,506 za 1 000 transakcji
@@ -54,9 +54,9 @@ Usługa może być wykorzystywana np. w aplikacjach jako media społecznościowe
 W celu skorzystania z usługi, należy utworzyć zasób LUIS w Azure Portal. Aplikacje należy utworzyć w  w tym samym regionie, co utworzona usługa. Usługa LUIS obsługuje trzy lokalizacje: Stany Zjednoczone, Europa i Azja. Dla wszystkich tych lokalizacji istnieją oddzielne portale. Następnie należy "intents" oraz "entities" . Dzięki temu Luis może wyrywać kluczowe słowa oraz rozumieć ich kombinacje.  Po konfiguracji zasobu możemy douczać model. Usługa Luis zwraca ocenę pewności z przedziału od 0 do 1. Im wyższa wartość, tym fraza lepiej została zrozumiana. Po zakończeniu trenowania należy opublikować serwis. 
 
 ##### 3.2. Opłaty
-Możemy wyróżnić 2 modele: free oraz standard
-Free – pozwala wykonać maksymalnie 5 zapytań ba sekundę
-Standard – maksymalnie 50 zapytań na sekundę:
+Możemy wyróżnić 2 modele: free oraz standard <br/>
+Free – pozwala wykonać maksymalnie 5 zapytań ba sekundę <br/>
+Standard – maksymalnie 50 zapytań na sekundę:<br/>
 *	Rządanie tekstowe - $1.50 za 1000 zapytań
 *	Rządanie wymawiane - $5.50 za 1000 zapytań
 
@@ -80,9 +80,9 @@ W celu skorzystania z usługi, należy utworzyć zasób Text Analytics i uzyska�
 Następnie należy wysłać żadanie z tekstem do analizy do punktu końcowegom, który został ustalony podczas rejestracji. 
 
 ##### 3.2. Opłaty
-Możemy wyróżnić 2 modele: free oraz standard
-Free – pozwala wykonać maksymalnie 5000 zapytań w miesiącu
-Standard – cennik jest rozbity na:
+Możemy wyróżnić 2 modele: free oraz standard<br/>
+Free – pozwala wykonać maksymalnie 5000 zapytań w miesiącu <br/>
+Standard – cennik jest rozbity na:<br/>
 * 0–500 000 rekordów tekstu — €1,687 za 1 000 rekordów tekstu
 * 0,5M–2,5M rekordów tekstu — €0,844 za 1 000 rekordów tekstu
 * 2,5M–10,0M rekordów tekstu — €0,422 za 1 000 rekordów tekstu
