@@ -27,7 +27,7 @@ Standard – cennik jest rozbity na:<br/>
 * Ponad 10 mln transakcji - €0,338 za 1 000 transakcji
 
 
-# Language Understanding Intelligent Service (LUIS)
+## Language Understanding Intelligent Service (LUIS)
 
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
@@ -60,7 +60,7 @@ Standard – maksymalnie 50 zapytań na sekundę:<br/>
 *	Rządanie tekstowe - $1.50 za 1000 zapytań
 *	Rządanie wymawiane - $5.50 za 1000 zapytań
 
-# Text Analytics API
+## Text Analytics API
 
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
