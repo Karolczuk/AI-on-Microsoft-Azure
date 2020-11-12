@@ -28,10 +28,9 @@ Możemy wyróżnić 2 modele: free oraz standard <br/>
 
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
-
+Bot Framework Composer umożliwia łatwe tworzenie bota bez konieczności pisania kodu.
 ##### 1.1. Opis serwisu
-
-
+Bot Framework Composer jest open-sourcowy. Integruje się z takimi serwisami jak LUIS i QnA Maker. jest płótno kompozytora, na którym można projektować boty. Serwis posiada wiele zalet: wizualna powierzchnia projektowa, uproszczone tworzenie bota, co wiąże się z oszczędnością czasu. 
 
 ### 2. Use Cases
 
