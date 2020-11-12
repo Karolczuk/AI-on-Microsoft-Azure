@@ -16,6 +16,8 @@ QnA Maker korzysta z bazy wiedzy, która składa się z par pytań i odpowiedzi.
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
+* możliwość storzenia bota bez znajomości programowania np. bot wykorzytywany przy umawiania spotkań, bot 
+* możliość stosunkowo szybkiego stowrzenia bota np. bot dla biu Podróży, w którym możemy dopytać się o szczegóły wycieczki, bot pomagający złożyć zamówienie w sklepie
 
 W celu skorzystania z usługi, należy utworzyć odpowiednie zasoby i wygenerować klucz. Usługę można uruchomić za pomocą API, umieszczająć w headerze  Ocp-Apim-Subscription-Key z wygenerowanym kluczem.
 ##### 3.2. Opłaty
