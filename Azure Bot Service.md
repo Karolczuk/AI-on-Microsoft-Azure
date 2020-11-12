@@ -20,8 +20,8 @@ QnA Maker korzysta z bazy wiedzy, która składa się z par pytań i odpowiedzi.
 W celu skorzystania z usługi, należy utworzyć odpowiednie zasoby i wygenerować klucz. Usługę można uruchomić za pomocą API, umieszczająć w headerze  Ocp-Apim-Subscription-Key z wygenerowanym kluczem.
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard <br/>
-* free - max 3 zapytania na sekundę, każdy dokument o rozmiarze do 1 MB do 100 transakcji na minutę, do 50 000 transakcji na miesiąc <b/>
-* standard - max 3 zapytania na sekundę, do 100 transakcji na minutę, €8,433 dla nieograniczonej liczby zarządzanych dokumentów <b/>
+* free - max 3 zapytania na sekundę, każdy dokument o rozmiarze do 1 MB do 100 transakcji na minutę, do 50 000 transakcji na miesiąc <br/>
+* standard - max 3 zapytania na sekundę, do 100 transakcji na minutę, €8,433 dla nieograniczonej liczby zarządzanych dokumentów<br/>
 
 
 ## Bot Framework Composer
