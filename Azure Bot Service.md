@@ -9,17 +9,15 @@ QnA Maker – umożliwia utworzenie bazy wiedzy, rozszerzonej o funkcje przetwar
 QnA Maker korzysta z bazy wiedzy, która składa się z par pytań i odpowiedzi. Usługa potrafi dopasować odpowiednie pytanie do odpowiedzi. QnA Maker zwraca odpowiedzi w formacie Json. Im bardziej baza wiedzy jest rozbudowana tym usługa lepiej dopasowuje odpowiedź do pytania.  
 
 ### 2. Use Cases
-* Usługa może być wykorzystywany do zarządzania konwersacją np. 
+* Usługa może być wykorzystywany do zarządzania konwersacją np. bot dla Stacji Informacyjnych, w których możemy dopytać się o najnowsze informacje
 * Bot wspomagający działanie przychodni medycznej, który odpowiada nowym pacjentom na często powtarzające się pytania np. jakie testy alergiczne można wykonać w placówce
 * Bot wspomagający działanie gry komputerowej, który prowadzi użytkownika krok po kroku jak w instrukcji
 
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
-* możliwość storzenia bota bez znajomości programowania np. bot wykorzytywany przy umawiania spotkań, bot 
-* możliość stosunkowo szybkiego stowrzenia bota np. bot dla biu Podróży, w którym możemy dopytać się o szczegóły wycieczki, bot pomagający złożyć zamówienie w sklepie
-
 W celu skorzystania z usługi, należy utworzyć odpowiednie zasoby i wygenerować klucz. Usługę można uruchomić za pomocą API, umieszczająć w headerze  Ocp-Apim-Subscription-Key z wygenerowanym kluczem.
+
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard <br/>
 * free - max 3 zapytania na sekundę, każdy dokument o rozmiarze do 1 MB do 100 transakcji na minutę, do 50 000 transakcji na miesiąc <br/>
@@ -35,7 +33,8 @@ Bot Framework Composer umożliwia łatwe tworzenie bota bez konieczności pisani
 Bot Framework Composer jest open-sourcowy. Integruje się z takimi serwisami jak LUIS i QnA Maker. jest płótno kompozytora, na którym można projektować boty. Serwis posiada wiele zalet: wizualna powierzchnia projektowa, uproszczone tworzenie bota, co wiąże się z oszczędnością czasu. 
 
 ### 2. Use Cases
-
+* możliwość storzenia bota bez znajomości programowania np. bot wykorzytywany przy umawiania spotkań, bot 
+* możliość stosunkowo szybkiego stowrzenia bota np. bot dla biu Podróży, w którym możemy dopytać się o szczegóły wycieczki, bot pomagający złożyć zamówienie w sklepie
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
