@@ -37,7 +37,7 @@ Bot Framework Composer jest open-sourcowy. Integruje się z takimi serwisami jak
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
-Aby korzystać Bot Framework Composer trzeba zainstalować Bot Framework Composer i Bot Framework Emulator. W celu stworzenia bota należy uruchomić Bot Composer. Za pomocą diagramu można stworzyć ścieżkę dialogu. Bot może mieć wiele okienek. Okno dialogowe powinno zawiera co najmniej jeden wyzwalacz. Wyzwalacz składa się z akcji. Akcje to zbióry instrukcji, które wykonuje bot. Za pomocą emultora można przetestować funkcjonalność bota. 
+Aby korzystać Bot Framework Composer trzeba zainstalować  .NET Core, Bot Framework Composer oraz Bot Framework Emulator. W celu stworzenia bota należy uruchomić Bot Composer. Za pomocą diagramu można stworzyć ścieżkę dialogu. Bot może mieć wiele okienek. Okno dialogowe powinno zawiera co najmniej jeden wyzwalacz. Wyzwalacz składa się z akcji. Akcje to zbióry instrukcji, które wykonuje bot. Za pomocą emultora można przetestować funkcjonalność bota. 
 
 ##### 3.2. Opłaty
 Aplikacja jest opensource darmowa. Usługa jest bezpłatna
