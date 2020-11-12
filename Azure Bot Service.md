@@ -3,7 +3,7 @@
 ## QnA Maker
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
-QnA Maker – umożliwia utworzenie bazy wiedzy, rozszerzoną o funkcje przetwarzania języka naturalnego.
+QnA Maker – umożliwia utworzenie bazy wiedzy, rozszerzonej o funkcje przetwarzania języka naturalnego.
 
 ##### 1.2. Opis serwisu
 QnA Maker korzysta z bazy wiedzy, która składa się z par pytań i odpowiedzi. Usługa potrafi dopasować odpowiednie pytanie do odpowiedzi. QnA Maker zwraca odpowiedzi w formacie Json. Im bardziej baza wiedzy jest rozbudowana tym usługa lepiej dopasowuje odpowiedź do pytania.  
