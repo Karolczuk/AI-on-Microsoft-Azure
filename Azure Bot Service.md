@@ -9,7 +9,7 @@ QnA Maker – umożliwia utworzenie bazy wiedzy, rozszerzonej o funkcje przetwar
 QnA Maker korzysta z bazy wiedzy, która składa się z par pytań i odpowiedzi. Usługa potrafi dopasować odpowiednie pytanie do odpowiedzi. QnA Maker zwraca odpowiedzi w formacie Json. Im bardziej baza wiedzy jest rozbudowana tym usługa lepiej dopasowuje odpowiedź do pytania.  
 
 ### 2. Use Cases
-* Usługa może być wykorzystywany do zarządzania konwersacją np. bot dla Stacji Informacyjnych, w których możemy dopytać się o najnowsze informacje
+* Usługa może być wykorzystywana do zarządzania konwersacją np. bot dla stacji informacyjej, w której możemy dopytać się o najnowsze informacje
 * Bot wspomagający działanie przychodni medycznej, który odpowiada nowym pacjentom na często powtarzające się pytania np. jakie testy alergiczne można wykonać w placówce
 * Bot wspomagający działanie gry komputerowej, który prowadzi użytkownika krok po kroku jak w instrukcji
 
