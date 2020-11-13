@@ -33,7 +33,7 @@ Bot Framework Composer jest open-sourcowy. Integruje się z takimi serwisami jak
 
 ### 2. Use Cases
 * możliwość storzenia bota bez znajomości programowania np. bot wykorzytywany przy umawiania spotkań
-* możliość stosunkowo szybkiego stowrzenia bota np. bot dla biu Podróży, w którym możemy dopytać się o szczegóły wycieczki, bot pomagający złożyć zamówienie w sklepie
+* możliość stosunkowo szybkiego stowrzenia bota np. bot dla biura podróży, w którym możemy dopytać się o szczegóły wycieczki, bot pomagający złożyć zamówienie w sklepie
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
