@@ -1,0 +1,7 @@
+[import](common.lg)
+
+# SendActivity_x4azJ9()
+[Activity
+    Text = How can I help today?
+    SuggestedActions = helpline | quarantineTime | home quarantine 
+]

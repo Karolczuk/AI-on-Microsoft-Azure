@@ -1,0 +1,7 @@
+[import](common.lg)
+
+# SendActivity_dLd2dZ()
+[Activity 
+Text = I can show you global info about covid
+SuggestedActions = cases | deaths | recovered
+]

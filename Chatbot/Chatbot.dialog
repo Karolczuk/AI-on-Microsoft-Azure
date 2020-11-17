@@ -1,0 +1,229 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "$designer": {
+      "name": "Chatbot",
+      "description": "",
+      "id": "MovXvX"
+    }
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnConversationUpdateActivity",
+      "$designer": {
+        "id": "376720"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "ANB7RR"
+          },
+          "activity": "${SendActivity_ANB7RR()}"
+        },
+        {
+          "$kind": "Microsoft.Foreach",
+          "$designer": {
+            "id": "518944",
+            "name": "Loop: for each item"
+          },
+          "itemsProperty": "turn.Activity.membersAdded",
+          "actions": [
+            {
+              "$kind": "Microsoft.IfCondition",
+              "$designer": {
+                "id": "641773",
+                "name": "Branch: if/else"
+              },
+              "condition": "string(dialog.foreach.value.id) != string(turn.Activity.Recipient.id)",
+              "actions": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "oqLQaW",
+        "name": "symptoms"
+      },
+      "intent": "symptoms",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "lzZnRk"
+          },
+          "activityProcessed": true,
+          "dialog": "Symptoms"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "vxAU23",
+        "name": "quarantine"
+      },
+      "intent": "quarantine",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "cqWwmN"
+          },
+          "activity": "${SendActivity_cqWwmN()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "XbIWZG",
+        "name": "statistic"
+      },
+      "intent": "statistic",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "VomV9z"
+          },
+          "activity": "${SendActivity_VomV9z()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "e037HJ",
+        "name": "help"
+      },
+      "intent": "help",
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "jPpg57"
+          },
+          "activity": "${SendActivity_jPpg57()}"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "4HYUJu",
+        "name": "cases"
+      },
+      "intent": "cases",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "OV0lvo"
+          },
+          "activityProcessed": true,
+          "dialog": "AllCases"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "ALXVUm",
+        "name": "deaths"
+      },
+      "intent": "deaths",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "3VxECv"
+          },
+          "activityProcessed": true,
+          "dialog": "covidDeaths"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "H0RJJH",
+        "name": "helpline"
+      },
+      "intent": "helpline",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "4QE7MN"
+          },
+          "activityProcessed": true,
+          "dialog": "helpline"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "ZUWsay",
+        "name": "timeQuarantine"
+      },
+      "intent": "timeQuarantine",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "l8nfMW"
+          },
+          "activityProcessed": true,
+          "dialog": "TimetQuarantine"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "vF668s",
+        "name": "homeQuarantine"
+      },
+      "intent": "homeQuarantine",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "Ao04Z5"
+          },
+          "activityProcessed": true,
+          "dialog": "HomeQuarantine"
+        }
+      ]
+    },
+    {
+      "$kind": "Microsoft.OnIntent",
+      "$designer": {
+        "id": "tSvuLx",
+        "name": "recovered"
+      },
+      "intent": "recovered",
+      "actions": [
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "PxMhro"
+          },
+          "activityProcessed": true,
+          "dialog": "covidRecovered"
+        }
+      ]
+    }
+  ],
+  "$schema": "https://raw.githubusercontent.com/microsoft/BotFramework-Composer/stable/Composer/packages/server/schemas/sdk.schema",
+  "generator": "Chatbot.lg",
+  "id": "Chatbot",
+  "recognizer": "Chatbot.lu.qna"
+}

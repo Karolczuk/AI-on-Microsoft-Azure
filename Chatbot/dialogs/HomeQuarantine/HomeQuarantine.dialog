@@ -1,0 +1,40 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "K2Z8zI",
+    "name": "HomeQuarantine",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "EzWdsk"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "U8Cu9q"
+          },
+          "activity": "${SendActivity_U8Cu9q()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "7DvmXk"
+          },
+          "activityProcessed": true,
+          "dialog": "Help"
+        }
+      ]
+    }
+  ],
+  "generator": "HomeQuarantine.lg",
+  "recognizer": "HomeQuarantine.lu.qna",
+  "id": "HomeQuarantine"
+}

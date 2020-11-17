@@ -1,0 +1,18 @@
+[import](common.lg)
+
+# SendActivity_ANB7RR()
+- Hi, how can I help you? 
+# SendActivity_jPpg57()
+[Activity 
+SuggestedActions = statistic | symtoms |  quarantine
+]
+# SendActivity_VomV9z()
+[Activity 
+Text = I can show you global info about covid
+SuggestedActions = cases | deaths | recovery
+]
+# SendActivity_cqWwmN()
+[Activity
+    Text = How can I help today?
+    SuggestedActions = helpline | timeQuarantine | homeQuarantine
+]

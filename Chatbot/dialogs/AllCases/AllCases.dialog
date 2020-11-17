@@ -1,0 +1,51 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "HgMiIB",
+    "name": "AllCases",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "dJVOe3"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.HttpRequest",
+          "$designer": {
+            "id": "JcqeIe"
+          },
+          "method": "GET",
+          "url": "https://coronavirus-19-api.herokuapp.com/all",
+          "contentType": "json",
+          "responseType": "json",
+          "resultProperty": "dialog.cases"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "vB1RRu"
+          },
+          "activity": "${SendActivity_vB1RRu()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "xf1uLW"
+          },
+          "activityProcessed": true,
+          "dialog": "Help"
+        }
+      ]
+    }
+  ],
+  "generator": "AllCases.lg",
+  "recognizer": "AllCases.lu.qna",
+  "id": "AllCases"
+}

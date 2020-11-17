@@ -1,0 +1,51 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "ANL9bm",
+    "name": "covidDeaths",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "EUDcZp"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.HttpRequest",
+          "$designer": {
+            "id": "u1TJ90"
+          },
+          "method": "GET",
+          "url": "https://coronavirus-19-api.herokuapp.com/all",
+          "resultProperty": "dialog.deaths",
+          "contentType": "json",
+          "responseType": "json"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "utD5oD"
+          },
+          "activity": "${SendActivity_utD5oD()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "SQANgI"
+          },
+          "activityProcessed": true,
+          "dialog": "Help"
+        }
+      ]
+    }
+  ],
+  "generator": "covidDeaths.lg",
+  "recognizer": "covidDeaths.lu.qna",
+  "id": "covidDeaths"
+}

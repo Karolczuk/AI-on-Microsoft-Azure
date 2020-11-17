@@ -1,0 +1,40 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "VJ1yzi",
+    "name": "TimetQuarantine",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "ehAseB"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "2vvlpD"
+          },
+          "activity": "${SendActivity_2vvlpD()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "pbQo1J"
+          },
+          "activityProcessed": true,
+          "dialog": "Help"
+        }
+      ]
+    }
+  ],
+  "generator": "TimetQuarantine.lg",
+  "recognizer": "TimetQuarantine.lu.qna",
+  "id": "TimetQuarantine"
+}

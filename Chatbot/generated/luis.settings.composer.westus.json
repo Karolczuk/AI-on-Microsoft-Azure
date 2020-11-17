@@ -1,0 +1,12 @@
+{
+    "luis": {
+        "Chatbot_en_us_lu": {
+            "appId": "6a69ca78-dd67-4383-a8bb-148511d7b17d",
+            "version": "2.3"
+        },
+        "Symptoms_en_us_lu": {
+            "appId": "559ff408-ccb6-4f72-bf9c-053a8cd45b84",
+            "version": "0.1"
+        }
+    }
+}

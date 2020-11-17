@@ -1,0 +1,10 @@
+[import](common.lg)
+
+# ConfirmInput_Prompt_ORq7r3()
+- Do you have common symptoms of coronovirus such as fever, loss of taste or smell, difficulty breathing, chest pain?
+# SendActivity_pgW1Uk()
+- You should stay home. If you experience breathing problems, contact your doctor immediately.
+# SendActivity_XKkrL7()
+- You are lucky. Your symptoms are mild or you don't have covid. You probably have the flu or allergies.  Stay home, if you have difficulty breathing, call an ambulance.
+# SendActivity_YRfiFF()
+-I can provide information on the daily number of infections and recoveries, the number of people who died due to the coronovirus and basic information on quarantine. If you are interested in this information, please select the appropriate button.

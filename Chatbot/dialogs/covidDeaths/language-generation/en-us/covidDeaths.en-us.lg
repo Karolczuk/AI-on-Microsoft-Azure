@@ -1,0 +1,4 @@
+[import](common.lg)
+
+# SendActivity_utD5oD()
+- Today there are ${dialog.deaths.content.deaths} fatal cases in the world

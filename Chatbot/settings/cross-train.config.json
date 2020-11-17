@@ -1,0 +1,39 @@
+{
+  "Chatbot.en-us": {
+    "rootDialog": true,
+    "triggers": {
+      "symptoms": [
+        "Symptoms.en-us"
+      ],
+      "quarantine": [],
+      "statistic": [],
+      "help": [],
+      "cases": [
+        "AllCases.en-us"
+      ],
+      "deaths": [
+        "covidDeaths.en-us"
+      ],
+      "helpline": [
+        "helpline.en-us"
+      ],
+      "timeQuarantine": [
+        "TimetQuarantine.en-us"
+      ],
+      "homeQuarantine": [
+        "HomeQuarantine.en-us"
+      ],
+      "recovered": [
+        "covidRecovered.en-us"
+      ]
+    }
+  },
+  "Symptoms.en-us": {
+    "rootDialog": false,
+    "triggers": {
+      "": [
+        "Help.en-us"
+      ]
+    }
+  }
+}

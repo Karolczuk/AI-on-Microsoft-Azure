@@ -1,0 +1,32 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "aQ2qPA",
+    "name": "statistic",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "ohrX0h"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "dLd2dZ"
+          },
+          "activity": "${SendActivity_dLd2dZ()}"
+        }
+      ]
+    }
+  ],
+  "generator": "statistic.lg",
+  "recognizer": "statistic.lu.qna",
+  "id": "statistic"
+}

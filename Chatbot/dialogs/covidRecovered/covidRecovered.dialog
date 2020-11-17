@@ -1,0 +1,51 @@
+{
+  "$kind": "Microsoft.AdaptiveDialog",
+  "$designer": {
+    "id": "xMchfG",
+    "name": "covidRecovered",
+    "description": ""
+  },
+  "autoEndDialog": true,
+  "defaultResultProperty": "dialog.result",
+  "triggers": [
+    {
+      "$kind": "Microsoft.OnBeginDialog",
+      "$designer": {
+        "name": "BeginDialog",
+        "description": "",
+        "id": "ehF7WV"
+      },
+      "actions": [
+        {
+          "$kind": "Microsoft.HttpRequest",
+          "$designer": {
+            "id": "sUWEYz"
+          },
+          "method": "GET",
+          "url": "https://coronavirus-19-api.herokuapp.com/all",
+          "resultProperty": "dialog.recovered",
+          "contentType": "json",
+          "responseType": "json"
+        },
+        {
+          "$kind": "Microsoft.SendActivity",
+          "$designer": {
+            "id": "KRYZLW"
+          },
+          "activity": "${SendActivity_KRYZLW()}"
+        },
+        {
+          "$kind": "Microsoft.BeginDialog",
+          "$designer": {
+            "id": "8kHKRX"
+          },
+          "activityProcessed": true,
+          "dialog": "Help"
+        }
+      ]
+    }
+  ],
+  "generator": "covidRecovered.lg",
+  "recognizer": "covidRecovered.lu.qna",
+  "id": "covidRecovered"
+}

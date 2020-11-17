@@ -1,0 +1,7 @@
+[import](common.lg)
+
+# SendActivity_JjXDfV()
+[Activity 
+Text = How can  I help you?
+SuggestedActions = statistic  |  quarantine
+]

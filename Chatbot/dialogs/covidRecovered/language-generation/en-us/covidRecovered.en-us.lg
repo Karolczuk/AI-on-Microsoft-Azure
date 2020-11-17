@@ -1,0 +1,4 @@
+[import](common.lg)
+
+# SendActivity_KRYZLW()
+-  Today in the world there are ${dialog.recovered.content.recovered} people have recovered.

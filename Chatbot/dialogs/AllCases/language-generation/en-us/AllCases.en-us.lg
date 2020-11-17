@@ -1,0 +1,4 @@
+[import](common.lg)
+
+# SendActivity_vB1RRu()
+-  Today on the world  there are ${dialog.cases.content.cases} total confirmed cases.
