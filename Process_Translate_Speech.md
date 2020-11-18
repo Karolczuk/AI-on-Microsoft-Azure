@@ -45,7 +45,7 @@ W celu skorzystania z usługi, należy utworzyć zasób w Azure Portal i skopiow
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard <br/>
 Free – max 1 zapytań jednocześnie <br/>
-* Transkrypcja konwersacji — wielokanałowe audio - - 5 bezpłatnych godzin audio na miesiąc </b>
+* Transkrypcja konwersacji — wielokanałowe audio -  5 bezpłatnych godzin audio na miesiąc </b>
 * Standard - 5 bezpłatnych godzin audio na miesiąc </b>
 * Niestandardowe	- 5 bezpłatnych godzin audio na miesiąc, hosting punktów końcowych </b>
 
@@ -59,11 +59,10 @@ Standard – max 20 zapytań jednocześnie:<br/>
 
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
-Jedną z podstawowych funkcji usługi mowy jest zdolność rozpoznawania mowy ludzkiej i tłumaczenia jej na inne języki.
-
+To usługa oparta na chmurze, która zapewnia funkcje przetwarzania języka naturalnego (NLP) do eksploracji tekstu i analizy tekstu, w tym: analizę sentymentów, eksplorację opinii oraz wyodrębnianie kluczowych fraz. 
 
 ### 2. Use Cases
-* Przetłumaczenia frnacuskiego na angielski
+* Klasyfikacja terminologi medycznej
 * Bot obsługujący klinetów w różnych językach
 
 
