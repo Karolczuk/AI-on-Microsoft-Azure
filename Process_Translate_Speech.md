@@ -63,7 +63,7 @@ To usługa oparta na chmurze, która zapewnia funkcje przetwarzania języka natu
 
 ### 2. Use Cases
 * Klasyfikacja terminologi medycznej
-* Bot obsługujący klinetów w różnych językach
+* Bot obsługujący klientów w różnych językach
 
 
 ### 3. How to
