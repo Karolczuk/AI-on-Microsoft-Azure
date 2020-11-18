@@ -5,12 +5,12 @@
 ##### 1.1. Wstępne przedstawienie serwisu
 Azure Text to Speech transkrybuje dźwięk na tekst w 85 językach i wariantach. Można dostosowywać modele, aby zwiększyć dokładność terminologii specyficznej dla domeny.
 ##### 1.2. Opis serwisu
-Usługa składa się z interfejsów API za pośrednictwem wywołań REST, zestawu .NET SDK oraz narzędzi do przeglądu. Azure Content Moderator pomaga znaleźć nieodpowienie słowa czy obrazy. Usługa wysyła zapytanie do API i jako odpowiedź otrzymujemy nieodpowiednie słowa.
+Zamiany mowy na tekst usługi mowy umożliwia transkrypcję strumieni audio na tekst.Usługa pomaga stworzyć unikalny głos, można dostosować głos do swoich scenariuszy i uruchamiać zamianę tekstu na mowę w dowolnym miejscu.
 
 ### 2. Use Cases
-* Moderowanie opini na stronie wynajmu kwater w ośrodku turystycznym
-* Wychwytywanie wulgaryzmów na forum
-* Cenzurowanie nieodpowiednich zdjęć na stronie
+* transkrypcja spotkania
+* tłumaczenie wypowiedzi prezentarki telewizyjnej
+* storzenie unikalnego głosu w filmie fantastycznym
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
