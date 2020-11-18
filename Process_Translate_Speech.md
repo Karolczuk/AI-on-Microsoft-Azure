@@ -18,7 +18,7 @@ Możemy wyróżnić 2 modele: free oraz standard <br/>
 Free – max 1 zapytań jednocześnie <br/>
 * Neuronowa — 0.5 miliona bezpłatnych znaków na miesiąc  <br/>
 * Standard - 5 miliinów bezpłatnych znaków na miesiąc <br/>
-* Niestandardowe- bezpłatne znaki na miesiąc: 5 millionHosting punktów końcowych: 1 bezpłatny model na miesiąc <br/>
+* Niestandardowe- bezpłatne znaki na miesiąc: 5 million, hosting punktów końcowych: 1 bezpłatny model na miesiąc <br/>
 
 Standard – max 20 zapytań jednocześnie:<br/>
 * Niestandardowe sieci neuronow — €20,240 za 1 mln znaków, hosting punktów końcowych: €3,41 za model na godzinę  <br/>
