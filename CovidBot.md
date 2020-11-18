@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=U9o2TCyurLs           </b>
 
 ## 2. Kod
 
-Kod znajaduje się w innej gałezi niż część teoretyczna. Kod znajduje się w gałęzi master. Natomiast część teoretyczna w gałęzi main. </b>
+Kod znajduje się w innej gałezi niż część teoretyczna. Kod znajduje się w gałęzi master. Natomiast część teoretyczna w gałęzi main. </b>
 Link do kodu : </b>
 https://github.com/Karolczuk/AI-on-Microsoft-Azure/tree/master/Chatbot
 
