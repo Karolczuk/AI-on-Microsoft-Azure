@@ -8,8 +8,7 @@ Azure Text to Speech transkrybuje dźwięk na tekst w 85 językach i wariantach.
 Zamiany mowy na tekst usługi mowy umożliwia transkrypcję strumieni audio na tekst.Usługa pomaga stworzyć unikalny głos, można dostosować głos do swoich scenariuszy i uruchamiać zamianę tekstu na mowę w dowolnym miejscu.
 
 ### 2. Use Cases
-* transkrypcja spotkania
-* tłumaczenie wypowiedzi prezentarki telewizyjnej
+* zamiana artykułu na słowa dla ludzi niewodomych, dzięki temu będęą mogli odłuchać artykułu
 * storzenie unikalnego głosu w filmie fantastycznym
 
 ### 3. How to
