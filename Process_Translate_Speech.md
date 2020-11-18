@@ -1,10 +1,9 @@
-# Azure Cognitive Language Services
+# Azure Cognitive Speech Services
 
-## Azure Content Moderator
+## Azure Text to Speech
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
-Usługa Content Moderator potrafi wykrywać obraźliwe słowa i nieporządane obrazy za pomocą uczenia maszynowym. Usługa może wykrywać wulgaryzmy w ponad 100 językach. Usługa jest w stanie skanować obrazy (minimalnie 128 pikseli, maksymalny rozmiar: 4 MB) w celu wyszukania zawartości erotycznej i przeznaczonej dla osób dorosłych.
-
+Azure Text to Speech transkrybuje dźwięk na tekst w 85 językach i wariantach. Można dostosowywać modele, aby zwiększyć dokładność terminologii specyficznej dla domeny.
 ##### 1.2. Opis serwisu
 Usługa składa się z interfejsów API za pośrednictwem wywołań REST, zestawu .NET SDK oraz narzędzi do przeglądu. Azure Content Moderator pomaga znaleźć nieodpowienie słowa czy obrazy. Usługa wysyła zapytanie do API i jako odpowiedź otrzymujemy nieodpowiednie słowa.
 
@@ -15,16 +14,19 @@ Usługa składa się z interfejsów API za pośrednictwem wywołań REST, zestaw
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
+W celu skorzystania z usługi, należy utworzyć zasób Speech w Azure Portal i skopiować klucz z zakładki Keys and Endpoints. Z zasoby można korzystać za pomocą komunikacji REST oraz SDK
 
-W celu skorzystania z usługi, należy utworzyć odpowiednie zasoby i wygenerować klucz. Usługę można uruchomić za pomocą API, umieszczająć w headerze  Ocp-Apim-Subscription-Key z wygenerowanym kluczem.
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard <br/>
-Free – pozwala wykonać maksymalnie 5000 zapytań w miesiącu <br/>
-Standard – cennik jest rozbity na:<br/>
-* Od 0 do 1 mln transakcji - €0,844 za 1 000 transakcji
-* Od 1 mln do 5 mln transakcji - €0,633 za 1 000 transakcji
-* Od 5 mln do 10 mln transakcji - €0,506 za 1 000 transakcji
-* Ponad 10 mln transakcji - €0,338 za 1 000 transakcji
+Free – max 1 zapytań jednocześnie <br/>
+* Transkrypcja konwersacji — wielokanałowe audio - - 5 bezpłatnych godzin audio na miesiąc
+* Standard - 5 bezpłatnych godzin audio na miesiąc
+* Niestandardowe	- 5 bezpłatnych godzin audio na miesiąc, hosting punktów końcowych: 1 bezpłatny model na miesiąc 2 
+
+Standard – max 20 zapytań jednocześnie:<br/>
+* Transkrypcja konwersacji — wielokanałowe audio €1,78 za godzinę audio 4
+* Standard €0,844 za godzinę audio
+* Niestandardowe	€1,181 za godzinę audio, hosting punktów końcowych: €1,0882 za model na godzinę
 
 
 ## Language Understanding Intelligent Service (LUIS)
