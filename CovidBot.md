@@ -28,7 +28,7 @@ Bot został utworzony przy użyciu Azure Bot Framework Coposer. Użyłam usługi
 * https://coronavirus-19-api.herokuapp.com/all
 </b>
 
-![] (filename%20architecture.png)
+![] (architecture.png)
 
 ## 5. Kroki do zbudowania bota
 
