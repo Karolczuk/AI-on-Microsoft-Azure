@@ -25,8 +25,10 @@ https://github.com/Karolczuk/AI-on-Microsoft-Azure/tree/master/Chatbot
 
 Bot został utworzony przy użyciu Azure Bot Framework Coposer. Użyłam usługi Azure LUIS (Language Understanding), by rozpoznać intencje użytkonwnika. Dane statystyczne są pobierane z API. </b> 
 
-* https://coronavirus-19-api.herokuapp.com/all
+* https://coronavirus-19-api.herokuapp.com/all  </b>
 </b>
+
+* Diagram architectury
 
 ![image info](./architecture.png)
 
