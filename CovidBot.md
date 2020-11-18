@@ -35,7 +35,7 @@ Bot został utworzony przy użyciu Azure Bot Framework Coposer. Użyłam usługi
 
 ## 5. Kroki do zbudowania bota
 
-1. Pobierz Azure Bot Service Composer. </b>
+1. Pobierz Azure Bot Composer. </b>
 * https://github.com/microsoft/BotFramework-Composer/releases   </b>
 
 2. Pobierz emulator platformy Azure Bot Framework.  </b>
