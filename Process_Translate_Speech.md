@@ -39,14 +39,15 @@ Zamiana mowy na tekst umożliwia transkrypcję strumieni audio na tekst.
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
+W celu skorzystania z usługi, należy utworzyć zasób w Azure Portal i skopiować klucz z zakładki Keys and Endpoints. Z zasoby można korzystać za pomocą komunikacji REST oraz SDK
 
 
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard <br/>
 Free – max 1 zapytań jednocześnie <br/>
-* Transkrypcja konwersacji — wielokanałowe audio - - 5 bezpłatnych godzin audio na miesiąc
-* Standard - 5 bezpłatnych godzin audio na miesiąc
-* Niestandardowe	- 5 bezpłatnych godzin audio na miesiąc, hosting punktów końcowych: 1 bezpłatny model na miesiąc 2 
+* Transkrypcja konwersacji — wielokanałowe audio - - 5 bezpłatnych godzin audio na miesiąc </b>
+* Standard - 5 bezpłatnych godzin audio na miesiąc </b>
+* Niestandardowe	- 5 bezpłatnych godzin audio na miesiąc, hosting punktów końcowych </b>
 
 Standard – max 20 zapytań jednocześnie:<br/>
 * Transkrypcja konwersacji — wielokanałowe audio €1,78 za godzinę audio 4
@@ -58,15 +59,20 @@ Standard – max 20 zapytań jednocześnie:<br/>
 
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
+Jedną z podstawowych funkcji usługi mowy jest zdolność rozpoznawania mowy ludzkiej i tłumaczenia jej na inne języki.
 
-##### 1.2. Opis serwisu
 
 ### 2. Use Cases
-
+* Przetłumaczenia frnacuskiego na angielski
+* Bot obsługujący klinetów w różnych językach
 
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
+Analogiicznie jak w poprzedmich serwisach czyli musimy stworzyć resorce, skonfigurować klucze. 
 
 ##### 3.2. Opłaty
+Wyróżniamy free oraz standard. </b>
+* free - 5 godzin audio na miesiąc
+* standard  - $3.20 za godzinę audio
 
