@@ -5,6 +5,8 @@
 ##### 1.1. Wstępne przedstawienie serwisu
 
 ### 2. Use Cases
+* sklasyfikowanie do jakiego autora należy dzieło sztuki
+* aplikacja rozpoznająca rasy psów
 * 
 
 ### 3. How to
@@ -16,6 +18,5 @@ Model testujemy, klikając na przycisk szybki test i podając zdjęcie, które c
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard <br/>
 Free – max 1 zapytań jednocześnie <br/>
-* Neuronowa — 0.5 miliona bezpłatnych znaków na miesiąc  <br/>
-* Standard - 5 miliinów bezpłatnych znaków na miesiąc <br/>
-* Niestandardowe- bezpłatne znaki na miesiąc: 5 million, hosting punktów końcowych: 1 bezpłatny model na miesiąc <br/>
+* Standard - <br/>
+
