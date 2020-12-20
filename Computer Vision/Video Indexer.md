@@ -4,10 +4,11 @@
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
 
-Automatycznie wyodrębnia metadane — np. słowa, tekst pisany, twarze, osoby mówiące, znane osoby, emocje, tematy, marki i sceny — z plików wideo i dźwiękowych.
+Automatycznie wyodrębnia metadane — np. słowa, tekst pisany, twarze, osoby mówiące, znane osoby, emocje, tematy, marki i sceny — z plików wideo i dźwiękowych. Video Indexer wykorzystuje algorytm uczenia maszynowego, który można dostosować i dostosować do własnych preferencji.
 
 ### 2. Use Cases
 * automatyczne tworzenie klipów z sekcji poświęconych konkretnym osobom
+* wydobywanie emocji z filmu
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
