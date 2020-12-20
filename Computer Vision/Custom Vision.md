@@ -26,7 +26,15 @@ Możemy wyróżnić 2 modele: free oraz standard <br/>
     - 2 transakcj/s (TPS)
  - Standard
     - 10 transakcji/s (TPS)
-    - max 100 projektów
-    - Transakcje przekazywania i przewidywania
+    - transakcje przekazywania i przewidywania
       - €1,687 za 1000 transakcji
+      - max 100 projektów
+
+    - szkolenia	
+      - €16,866 za godzinę obliczeniową
+    - Magazyn obrazów
+      = max 6 MB każdy
+      = €0,591 za następującą liczbę obrazów: 1 000
+
+       
 
