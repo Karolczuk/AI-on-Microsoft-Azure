@@ -7,7 +7,7 @@
 ### 2. Use Cases
 * sklasyfikowanie do jakiego autora należy dzieło sztuki
 * aplikacja rozpoznająca rasy psów
-* 
+* szukanie przestępcy w tłumie
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
