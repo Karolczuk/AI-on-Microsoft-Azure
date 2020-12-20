@@ -6,7 +6,7 @@ Azure Computer Vision API pozwala zdentyfikować twarz, obiekty oraz rozpoznać 
 
 ### 2. Use Cases
 * Ocena czy dana osoba kłasmie na podstawie emocji wyrażanych na twarzy
-* Rozpznawanie potrway na zdjęciu
+* Rozpoznawanie potrway na zdjęciu
 * Badanie satysfakcji kliena na podstawie emocji
 * System autoryzacji 
 
