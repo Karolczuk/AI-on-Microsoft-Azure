@@ -13,6 +13,8 @@ Azure Computer Vision API pozwala zdentyfikować twarz, obiekty oraz rozpoznać 
 ### 3. How to
 ##### 3.1. Użycie serwisu
 
+Należy zalogować się do Azure Portal, stworzyć resource Face API w zakładce AI + Machine Learning oraz wygenerować Subscription Key. Z serwisu można korzystać za pomocą SDK oraz REST API. 
+
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard <br/>
 Free – max 20 zapytań na minute <br/>
