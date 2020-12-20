@@ -12,6 +12,8 @@ Automatycznie wyodrębnia metadane — np. słowa, tekst pisany, twarze, osoby m
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
+W celu skorzystania z serwisu trzeba zalogować się do portalu Video Indexer. Następnie trzeba wybrać zakładkę produkty oraz pozycję autoryzacja i subskrypcja. Po zasubskrybowaniu można naleźć swoją subskrypcję w obszarze -> autoryzacja produktów. Za pomocą klucza subskrypcji można korzystać z usługi Video Indexer za pomoocą API.
+Alternatywnym sposobem korzystania z usługi Azure Video Indexer jest użycie zestawu SDK. 
 
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard <br/>
