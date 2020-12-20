@@ -3,6 +3,7 @@
 
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
+Custom Vision umożliwia tworzenie, trenowanie modelu oraz testowanie. Usługa Custom Vision używa algorytmu uczenia maszynowego do analizowania obrazów. Korzystanie z usługi jest bardzo proste. Wystarczy, że prześlecmy do do portalu usługi Custom Vision obrazki z zdefiniowanymi tagami i usługa sama wytrenuje model, który pozwala na rozróżnianie obrazków. Ponadto usługa Custom Vision jest zoptymalizowana pod kątem szybkiego rozpoznawania głównych różnic między obrazami. Z serwisu Custom Vision Service  można korzystać za pomocą SDK, a także za pośrednictwem interfejsu opartego na sieci Web/
 
 ### 2. Use Cases
 * sklasyfikowanie do jakiego autora należy dzieło sztuki
