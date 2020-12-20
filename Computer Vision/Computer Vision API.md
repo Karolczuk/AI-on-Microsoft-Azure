@@ -2,9 +2,13 @@
 
 ### 1. Intro
 ##### 1.1. Wstępne przedstawienie serwisu
+Azure Computer Vision API pozwala zdentyfikować twarz, obiekty oraz rozpoznać emocje na twarzy. Computer Vision daje możliwość wykrywania obiektów, tekstu z obrazów oraz generowania wysokiej jakości miniatur.
 
 ### 2. Use Cases
-* 
+* Ocena czy dana osoba kłasmie na podstawie emocji wyrażanych na twarzy
+* Rozpznawanie potrway na zdjęciu
+* Badanie satysfakcji kliena na podstawie emocji
+* System autoryzacji 
 
 ### 3. How to
 ##### 3.1. Użycie serwisu
