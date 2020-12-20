@@ -17,9 +17,12 @@ Model testujemy, klikając na przycisk szybki test i podając zdjęcie, które c
 
 ##### 3.2. Opłaty
 Możemy wyróżnić 2 modele: free oraz standard <br/>
-- Free 
+- Free
   – max 2 projekty  <br/>
   - do 1 godziny trenowania na miesiąc <br/>
   – max 2 projekty  <br/>
+ - Third item
+    - Indented item
+    - Indented item
 * Standard - <br/>
 
