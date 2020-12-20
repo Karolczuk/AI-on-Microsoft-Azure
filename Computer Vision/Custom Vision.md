@@ -23,7 +23,10 @@ Możemy wyróżnić 2 modele: free oraz standard <br/>
     - do 1 godziny trenowania na miesiąc
     - 5000 obrazów na potrzeby uczenia na projekt
     - 10000 prognoz miesięcznie
+    - 2 transakcj/s (TPS)
  - Standard
-    - max 2 projekty
-    - do 1 godziny trenowania na miesiąc
+    - 10 transakcji/s (TPS)
+    - max 100 projektów
+    - Transakcje przekazywania i przewidywania
+      - €1,687 za 1000 transakcji
 
