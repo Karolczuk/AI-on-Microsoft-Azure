@@ -21,5 +21,9 @@ Możemy wyróżnić 2 modele: free oraz standard <br/>
  - Free
     - max 2 projekty
     - do 1 godziny trenowania na miesiąc
-* Standard - <br/>
+    - 5000 obrazów na potrzeby uczenia na projekt
+    - 10000 prognoz miesięcznie
+ - Standard
+    - max 2 projekty
+    - do 1 godziny trenowania na miesiąc
 
