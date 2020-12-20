@@ -16,6 +16,16 @@ Możemy wyróżnić 2 modele: free oraz standard <br/>
   - max 10 godz. indeksowania dla użytkowników serwisu
   - max 40 godz. indeksowania dla użytkowników API
 
-* Standard- bezpłatne znaki na miesiąc: 5 million, hosting punktów końcowych: 1 bezpłatny model na miesiąc <br/>
+- Standard
+  - Analiza audio / wideo
+     - 0,035 USD na minutę wyjściową
+   - Kodowanie
+       - Standard
+          - 0,015 USD / min 
+       - Premium 
+          - 0,035 USD / min
+   - Streaming
+Standard => ~ 2,15 USD / dzień
+Premium => ~ 4,64 USD / dzień 
 
 
