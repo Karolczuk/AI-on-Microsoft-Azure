@@ -8,8 +8,8 @@ Prezentcja vido przedstawiająca główne przypadki użycia znajduje się w link
 ## 2. Use case
 
 Aplikacja pomaga rozpoznać, czy osoba ma założoną maseczkę stworzona oraz określa prawdopodobieńtwo prawidłowego rozpoznania obrazu. Zostały nałożone 3 tagi: 
-with - zdjęcie z maseczką
-without - zdjęcie bez maseczki
-other - inne obrazy
+* with - zdjęcie z maseczką
+* without - zdjęcie bez maseczki
+* other - inne obrazy
 
 
