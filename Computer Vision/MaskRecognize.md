@@ -40,6 +40,10 @@ Zadanie zostałi stworzone przy użyciu Custom Vision. Projekt został stworzony
       
   oraz ścieżki do zdjęć.
 Struktura zdjęc musi być zchowana następująco:
-
-
+a) Należe stworzyć 2 foldery nadrzędne : test oraz prediction. Każdy z tych folderów zawiera 3 foldery: 
+* without
+* with
+* other
+ 
+ 
 
