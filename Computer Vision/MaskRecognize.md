@@ -14,15 +14,8 @@ Aplikacja pomaga rozpoznać, czy osoba ma założoną maseczkę stworzona oraz o
 
 ## 3. Architektura
 
-
-
-Bot został utworzony przy użyciu Azure Bot Framework Coposer. Użyłam usługi Azure LUIS (Language Understanding), by rozpoznać intencje użytkonwnika. Dane statystyczne są pobierane z API. </b> 
-
-* https://coronavirus-19-api.herokuapp.com/all  </b>
+Zadanie zostałi stworzone przy użyciu Custom Vision. Projekt został stworzony w https://www.customvision.ai/ . Projekt również można uruchomić przy użyciu aplikacji .net. przekazująć predictionKey, url, projektId oraz publishedName serwisu custom vision. </b> 
 </b>
-
-* Diagram architektury
-
 
 
 ## 4. Kroki do zbudowania systemu rozpoznawania maseczki na zdjęciu
