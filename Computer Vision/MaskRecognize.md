@@ -14,7 +14,7 @@ Aplikacja pomaga rozpoznać, czy osoba ma założoną maseczkę stworzona oraz o
 
 ## 3. Architektura
 
-Zadanie zostałi stworzone przy użyciu Custom Vision. Projekt został stworzony w https://www.customvision.ai/ . Projekt również można uruchomić przy użyciu aplikacji .net. przekazująć predictionKey, url, projektId oraz publishedName serwisu custom vision. </b> 
+Zadanie zostałi stworzone przy użyciu Custom Vision. Projekt został stworzony w https://www.customvision.ai/ . Projekt również można uruchomić przy użyciu aplikacji .net. przekazująć predictionKey, url, projektId oraz publishedName z serwisu custom vision. </b> 
 </b>
 
 
