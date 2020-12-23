@@ -25,23 +25,28 @@ Bot został utworzony przy użyciu Azure Bot Framework Coposer. Użyłam usługi
 
 
 
-## 5. Kroki do zbudowania bota
+## 4. Kroki do zbudowania systemu rozpoznawania maseczki na zdjęciu
+
 
 1. Zaloguj się  do Azure portal https://portal.azure.com/ i stwórz resouce group  </b>
 
-![image info](./tt.png)
+2. Wejdż do portalu usługi Custom Vision : https://www.customvision.ai/ i utwórz nowy projekt.
 
-2. Pobierz emulator platformy Azure Bot Framework.  </b>
-* https://github.com/Microsoft/BotFramework-Emulator/blob/master/README.md    </b>
+3. Stworz tagi: with, without oraz other  i dodaj do nich obrazy.
 
+4. Wybierz przycisk Trenuj z górnej części strony. 
 
-![image info](./tt.png)
+5. Po procesie trenowania nalezy przejść do etapu testowania.Model testujemy, klikając na przycisk szybki test i podając zdjęcie, które chcemy sklasyfikować.
 
-3. Utwórz usługę LUIS w Azure Portal.  </b> 
-* https://portal.azure.com/#home  </b> 
+6. Dodatkowo można uruchomić aplikacje w .net ustwiając:
 
-4. Podepnij usługę LUIS do Bot Composera, ustawiając klucza do usługi LUIS w aplikacji Bot Framework Composer.  </b>
-5. Uruchom bota naciskająć Start w aplikacji Bot Framework Composer. 
+      * static string url = "";
+      * static string PredictionKey = "";
+      * static string ProjetId = "";
+      * static string PublishedName = "";
+      
+  oraz ścieżki do zdjęć.
+Struktura zdjęc musi być zchowana następująco:
 
 
 
