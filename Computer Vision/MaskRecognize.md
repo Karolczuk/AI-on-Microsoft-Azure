@@ -38,9 +38,9 @@ Zadanie zostałi stworzone przy użyciu Custom Vision. Projekt został stworzony
       * static string ProjetId = "";
       * static string PublishedName = "";
       
-  oraz ścieżki do zdjęć.
-Struktura zdjęc musi być zchowana następująco:
-a) Należe stworzyć 2 foldery nadrzędne : test oraz prediction. Każdy z tych folderów zawiera 3 foldery: 
+oraz ścieżki do zdjęć.
+- Struktura zdjęc musi być zchowana następująco:
+  - Należe stworzyć 2 foldery nadrzędne : test oraz prediction. Każdy z tych folderów zawiera 3 foldery: 
 * without
 * with
 * other
