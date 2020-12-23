@@ -2,19 +2,19 @@
 
 ## 1. Prezentacja video
 
-Prezentcja vido przedstawiająca główne przypadki użycia znajduje się w linku: </b> https://www.youtube.com/watch?v=_6nqOo-pRic&feature=youtu.be      </b>
+Prezentcja video przedstawiająca główne przypadki użycia znajduje się w linku: </b> https://www.youtube.com/watch?v=_6nqOo-pRic&feature=youtu.be      </b>
 
 
 ## 2. Use case
 
-Aplikacja pomaga rozpoznać, czy osoba ma założoną maseczkę stworzona oraz określa prawdopodobieńtwo prawidłowego rozpoznania obrazu. Zostały nałożone 3 tagi: 
+Aplikacja pomaga rozpoznać, czy osoba ma założoną maseczkę oraz określa prawdopodobieńtwo prawidłowego rozpoznania obrazu. Zostały nałożone 3 tagi: 
 * with - zdjęcie z maseczką
 * without - zdjęcie bez maseczki
 * other - inne obrazy
 
 ## 3. Architektura
 
-Zadanie zostałi stworzone przy użyciu Custom Vision. Projekt został stworzony w https://www.customvision.ai/ . Projekt również można uruchomić przy użyciu aplikacji .net. przekazująć predictionKey, url, projektId oraz publishedName z serwisu custom vision. </b> 
+Zadanie zostało stworzone przy użyciu Custom Vision. Projekt został stworzony w https://www.customvision.ai/ . Projekt również można uruchomić przy użyciu aplikacji .Net. przekazująć predictionKey, url, projektId oraz publishedName z serwisu custom vision. </b> 
 </b>
 
 ![image info](./diagram.png)
@@ -27,7 +27,7 @@ Zadanie zostałi stworzone przy użyciu Custom Vision. Projekt został stworzony
 
 2. Wejdż do portalu usługi Custom Vision : https://www.customvision.ai/ i utwórz nowy projekt.
 
-3. Stworz tagi: with, without oraz other  i dodaj do nich obrazy.
+3. Stwórz tagi: with, without oraz other  i dodaj do nich obrazy.
 
 4. Wybierz przycisk Trenuj z górnej części strony. 
 
