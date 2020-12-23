@@ -23,16 +23,19 @@ Bot został utworzony przy użyciu Azure Bot Framework Coposer. Użyłam usługi
 
 * Diagram architektury
 
-![image info](./architecture.png)
 
 
 ## 5. Kroki do zbudowania bota
 
-1. Pobierz Azure Bot Composer. </b>
-* https://github.com/microsoft/BotFramework-Composer/releases   </b>
+1. Zaloguj się  do Azure portal https://portal.azure.com/ i stwórz resouce group  </b>
+
+![image info](./tt.png)
 
 2. Pobierz emulator platformy Azure Bot Framework.  </b>
 * https://github.com/Microsoft/BotFramework-Emulator/blob/master/README.md    </b>
+
+
+![image info](./tt.png)
 
 3. Utwórz usługę LUIS w Azure Portal.  </b> 
 * https://portal.azure.com/#home  </b> 
