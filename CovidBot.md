@@ -35,8 +35,14 @@ Bot został utworzony przy użyciu Azure Bot Framework Coposer. Użyłam usługi
 
 ## 5. Kroki do zbudowania bota
 
-1. Pobierz Azure Bot Composer. </b>
-* https://github.com/microsoft/BotFramework-Composer/releases   </b>
+1. Utwórz new resource group na stronie https://www.customvision.ai/ 
+
+2. Utówrz nowy projekt na stronie https://www.customvision.ai/.
+
+
+
+Resource Group "CustomVisionPerfumes"
+Resource "CustomVisionPerfumes_r". ( W kind należy pamiętać, żeby wybrać CoputerVision, a nie oddzielnie CustomVision.train i test, aby trenownaie i testowanie odbyło się w jednej lokalizacji i można było opublikowac model.)
 
 2. Pobierz emulator platformy Azure Bot Framework.  </b>
 * https://github.com/Microsoft/BotFramework-Emulator/blob/master/README.md    </b>
