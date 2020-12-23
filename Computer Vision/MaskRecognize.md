@@ -31,14 +31,13 @@ Zadanie zostałi stworzone przy użyciu Custom Vision. Projekt został stworzony
 
 5. Po procesie trenowania nalezy przejść do etapu testowania.Model testujemy, klikając na przycisk szybki test i podając zdjęcie, które chcemy sklasyfikować.
 
-6. Dodatkowo można uruchomić aplikacje w .net ustwiając:
+6. Dodatkowo można uruchomić aplikacje w .net ustwiając odpowiednie scieżko do zdjęć oraz:
 
       * static string url = "";
       * static string PredictionKey = "";
       * static string ProjetId = "";
       * static string PublishedName = "";
       
-oraz ścieżki do zdjęć.
 - Struktura zdjęc musi być zchowana następująco:
   - Należe stworzyć 2 foldery nadrzędne : test oraz prediction. Każdy z tych folderów zawiera 3 foldery: 
     - without
